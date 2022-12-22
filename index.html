@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password generation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PASSWORD GENERATOR</h1>
+        <div class="p-header">
+            <input type="text" id='pass'>
+            <button id="copy">copy</button>
+        </div>
+        <div class="p-body">
+       <div class="form-control">
+        <label for="p-length"> password length</label>
+        <input type="number" name="" id="p-length" min="5" max="15" value="12">
+       </div>
+       <div class="form-control">
+        <label for="p-upper">include upper case</label>
+        <input type="checkbox" name="p-upper" id="p-upper" checked>
+       </div>
+       <div class="form-control">
+        <label for="p-lower"> include lower case</label>
+        <input type="checkbox" name="p-lower" id="p-lower">
+       </div>
+       <div class="form-control">
+        <label for="p-numbers"> include numbers</label>
+        <input type="checkbox" name="p-numbers" id="p-numbers">
+       </div>
+       <div class="form-control">
+        <label for="p-symbols"> include symbols</label>
+        <input type="checkbox" name="p-symbols" id="p-symbols">
+       </div>
+       <div class="submit">
+        <button id="submit"> generatr password</button>
+       </div>
+        </div>
+    </div>
+    <script src="./js.js"></script>
+</body>
+</html>
